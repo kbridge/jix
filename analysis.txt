@@ -1,0 +1,36 @@
+jdk7 [PE]
+	JAVA_CAB10/111/1033 [Cabinet]
+		tools.zip
+	JAVA_CAB11/112/1033 [Cabinet]
+		COPYRIGHT
+	JAVA_CAB9/110/1033 [Cabinet]
+		src.zip
+jdk8 [PE]
+	[RCDATA]/100/1033 [PE]
+		JAVA_CAB10/111/1033 [Cabinet]
+			tools.zip
+		JAVA_CAB11/112/1033 [Cabinet]
+			COPYRIGHT
+		JAVA_CAB9/110/1033 [Cabinet]
+			src.zip
+jdk9 [PE]
+	[RCDATA]/100/1033 [PE]
+		JAVA_CAB10/4/1033 [Cabinet]
+			tools.zip
+		JAVA_CAB11/5/1033 [Cabinet]
+			COPYRIGHT
+		JAVA_CAB9/3/1033 [Cabinet]
+			src.zip
+jdk10 = jdk9
+jdk11 [PE]
+	[RCDATA]/100/1033 [PE]
+		JAVA_INSTALLER/1/1033 [Compound (MSI)]
+			ss.cab [Cabinet]
+				src.zip
+			st.cab [Cabinet]
+				tools.zip
+			sz.cab [Cabinet]
+				COPYRIGHT
+jdk12 = jdk11
+jdk13 = jdk11
+jdk14 = jdk11
