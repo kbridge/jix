@@ -6,7 +6,7 @@ Works for JDK7 - JDK14.
 
 License: MIT
 
-Download: [Releases](releases)
+Download: [Releases](https://github.com/kbridge/jix/releases)
 
 Usage:
 
