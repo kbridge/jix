@@ -6,7 +6,7 @@ Works for JDK7 - JDK14.
 
 License: MIT
 
-Download: Releases
+Download: [Releases](releases)
 
 Usage:
 
