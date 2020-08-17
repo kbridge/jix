@@ -2435,7 +2435,7 @@ int run_program(char *cmdline, unsigned int *exit_code, unsigned int *error)
   if (!redirect_to_null(&hstdout, &cl, GENERIC_WRITE, &error_internal)) {
     goto exit;
   }
-  if (!duplicate_handle(&hstderr, &cl, hstdin, &error_internal)) {
+  if (!duplicate_handle(&hstderr, &cl, hstdout, &error_internal)) {
     goto exit;
   }
 
