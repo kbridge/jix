@@ -28,7 +28,7 @@ jdk11 [PE]
 			ss.cab [Cabinet]
 				src.zip
 			st.cab [Cabinet]
-				tools.zip
+				tools.zip (no .pack file)
 			sz.cab [Cabinet]
 				COPYRIGHT
 jdk12 = jdk11

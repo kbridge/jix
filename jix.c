@@ -2539,7 +2539,13 @@ void string_vector_init(struct string_vector *v)
 
 void string_vector_free(struct string_vector *v)
 {
-  free(v->strs);
+  if (v->strs != NULL) {
+    int i;
+    for (i = 0; i < v->length; i++) {
+      free(v->strs[i]);
+    }
+    free(v->strs);
+  }
 }
 
 void string_vector_append(struct string_vector *v, const char *str)
